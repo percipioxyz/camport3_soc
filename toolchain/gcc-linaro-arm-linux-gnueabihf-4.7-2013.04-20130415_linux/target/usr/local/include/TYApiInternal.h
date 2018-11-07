@@ -66,7 +66,7 @@ extern void debug();
 extern void debug_core();
 
 /// return current time in ms
-extern int32_t getSystemTime();
+extern uint32_t getSystemTime();
 
 
 typedef enum TY_LOG_LEVEL_LIST{

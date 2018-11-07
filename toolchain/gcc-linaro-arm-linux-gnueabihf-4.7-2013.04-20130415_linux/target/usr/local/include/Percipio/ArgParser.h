@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string>
+#include <vector>
 #include <sstream>
 #include <map>
 #include "Percipio/Foundation.h"
@@ -144,8 +145,8 @@ template<> inline enum ArgFlag::value_type ArgFlag::_typeID<const char*>()  { re
 
 class ArgParser {
 public:
-    ArgParser() : mBinName(NULL) {}
-    ArgParser(const char* _binName) : mBinName(_binName) {}
+    ArgParser() {}
+    ArgParser(const std::string& _binName) : mBinName(_binName) {}
 
     // if "optional" is false, "needValue" must be true, actually we ignore it
     template<typename T>
@@ -179,6 +180,8 @@ public:
     inline const char*  getStr(const char* name)    {return getVal<const char*>(name);}
     inline bool         getSwitch(const char* name) {return getVal<bool>(name);}
 
+    // will keep the input vector, take care
+    bool parseArgs(std::vector<std::string>& args);
     bool parseArgs(int argc, const char** argv);
 
     void printHelp(const char* pre = NULL, const char* suf = NULL);
@@ -186,10 +189,11 @@ public:
     void dumpArgs(bool all);
 
 private:
-    const char*                     mBinName;
+    std::string                     mBinName;
     std::map<std::string, ArgFlag>  mOptMap;
     std::map<std::string, ArgFlag>  mOptionalOptMap;
     std::map<std::string, ArgFlag>  mTargetMap;
+    std::vector<std::string>        mArgs;
 
     void printUsage();
     bool findArg(const char* name, std::map<std::string, ArgFlag>::iterator&);

@@ -1,3 +1,5 @@
+#ifndef __ANDROID__
+
 #ifndef Foundation_SimpleCLog_INCLUDED
 #define Foundation_SimpleCLog_INCLUDED
 
@@ -97,7 +99,7 @@ void SCL_SetLogLevel(int level);
 #define LOGD(fmt, ...)             SCL_LogPrint_(XYZ_LOG_LEVEL_DEBUG,     XYZ_LOG_PREFIX_DEBUG      XYZ_LOG_PREFIX fmt "\n" __XYZ_LOG_PREFIX_ARG, ##__VA_ARGS__)
 #define LOGTRAW(fmt, ...)          SCL_LogPrint_(XYZ_LOG_LEVEL_TMP_DEBUG, fmt, ##__VA_ARGS__)
 #define LOGPRAW(fmt, ...)          SCL_LogPrint_(XYZ_LOG_LEVEL_PANIC,     fmt, ##__VA_ARGS__)
-#define LOGERAW(fmt,...)           SCL_LogPrint_(XYZ_LOG_LEVEL_ERROR,     fmt, ##__VA_ARGS__)
+#define LOGERAW(fmt, ...)          SCL_LogPrint_(XYZ_LOG_LEVEL_ERROR,     fmt, ##__VA_ARGS__)
 #define LOGWRAW(fmt, ...)          SCL_LogPrint_(XYZ_LOG_LEVEL_WARN,      fmt, ##__VA_ARGS__)
 #define LOGIRAW(fmt, ...)          SCL_LogPrint_(XYZ_LOG_LEVEL_INFO,      fmt, ##__VA_ARGS__)
 #define LOGDRAW(fmt, ...)          SCL_LogPrint_(XYZ_LOG_LEVEL_DEBUG,     fmt, ##__VA_ARGS__)
@@ -117,3 +119,86 @@ void SCL_SetLogLevel(int level);
 #define xLOGP(fmt, ...)
 
 #endif // UTILS_LOG_H_
+
+#else
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <sys/types.h>
+
+
+#include <android/log.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#ifndef XYZ_LOG_PREFIX
+#   define XYZ_LOG_PREFIX
+#endif
+#ifdef XYZ_LOG_PREFIX_ARG
+#   define __XYZ_LOG_PREFIX_ARG     ,XYZ_LOG_PREFIX_ARG // add seperator ','
+#else
+#   define __XYZ_LOG_PREFIX_ARG
+#endif
+
+#define XYZ_LOG_LEVEL_DEBUG         0   ///< lowest priority, only print in debugging
+#define XYZ_LOG_LEVEL_INFO          1   ///< normally print
+#define XYZ_LOG_LEVEL_WARN          2   ///< warning information
+#define XYZ_LOG_LEVEL_ERROR         3   ///< error information
+#define XYZ_LOG_LEVEL_PANIC         4   ///< system panic information
+// following log levels are for debug
+#define XYZ_LOG_LEVEL_NO_LOG        5   ///< print none normal log, normally used in debugging
+#define XYZ_LOG_LEVEL_TMP_DEBUG     6   ///< temporary debug info, printed
+#define XYZ_LOG_LEVEL_NEVER         7   ///< never print any log, normally used in debugging
+
+
+int  SCL_SetLogFile(FILE* file);
+int  SCL_SetLogFileByName(const char* file);
+int  SCL_SetLogFileByFd(const int fd);
+void SCL_CloseLogFile();
+
+int  SCL_SetGlobalLogPrefix(const char* format);
+    /// Set log prefix for global log
+    ///
+    ///   * %d - zero-padded day of month (01 .. 31)
+    ///   * %f - space-padded day of month ( 1 .. 31)
+    ///   * %m - zero-padded month (01 .. 12)
+    ///   * %o - space-padded month ( 1 .. 12)
+    ///   * %Y - year with century (1970)
+    ///   * %H - hour (00 .. 23)
+    ///   * %M - minute (00 .. 59)
+    ///   * %S - second (00 .. 59)
+    ///   * %i - millisecond (000 .. 999)
+    ///   * %% - percent sign
+
+void SCL_ClearGlobalLogPrefix();
+
+int  SCL_LogPrint_(int level, const char *fmt, ...);
+    /// Send format string to log, like printf().
+
+int  SCL_LogVprint_(int level, const char *fmt, va_list ap);
+    /// Send format string to log, like vprintf().
+
+void SCL_SetLogLevel(int level);
+
+#ifdef __cplusplus
+}
+#endif
+
+#define  LOG_TAG    "tycam"
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+#define  LOGI(...)  __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+#define  LOGW(...)  __android_log_print(ANDROID_LOG_WARN, LOG_TAG, __VA_ARGS__)
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
+#define  LOGF(...)  __android_log_print(ANDROID_LOG_FATAL, LOG_TAG, __VA_ARGS__)
+
+#define  LOGTRAW(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+#define  LOGPRAW(...)  __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+#define  LOGERAW(...)  __android_log_print(ANDROID_LOG_WARN, LOG_TAG, __VA_ARGS__)
+#define  LOGWRAW(...)  __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
+#define  LOGIRAW(...)  __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+#define  LOGDRAW(...)  __android_log_print(ANDROID_LOG_FATAL, LOG_TAG, __VA_ARGS__)
+
+#endif

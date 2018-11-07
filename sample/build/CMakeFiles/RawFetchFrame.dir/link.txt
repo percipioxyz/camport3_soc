@@ -1,1 +1,0 @@
-/home/vincent/code/test_code/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++       CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o  -o bin/RawFetchFrame -rdynamic ../../lib/libtycam.so -Wl,-rpath,/home/vincent/code/test_code/camport3_soc/sample/../lib: 

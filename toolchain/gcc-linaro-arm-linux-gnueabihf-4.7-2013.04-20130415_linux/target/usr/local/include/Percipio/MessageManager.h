@@ -23,20 +23,22 @@ public:
         };
     
         int32_t     type;
-        int32_t     timeStamp;
+        int32_t     uid;
         void*       from;
         void*       to;
         std::vector<uint8_t> buf;
     
         Message();
         Message(int32_t _type);
-        template<class T>
-        Message(int32_t _type, T _param, uint64_t _timeStamp = 0, void* _from = 0, void* _to = 0);
 
         template<class T>
-            void set(const T&);
+        Message(int32_t _type, T _param, uint64_t _uid = 0, void* _from = 0, void* _to = 0);
+
         template<class T>
-            T fetch();
+        void set(const T&);
+
+        template<class T>
+        T fetch();
     };
 
     enum Priority {
@@ -93,7 +95,7 @@ private:
 //
 inline MessageManager::Message::Message()
     : type(MSGTYPE_UNKNOWN)
-    , timeStamp(0)
+    , uid(0)
     , from(0)
     , to(0)
 {
@@ -101,17 +103,17 @@ inline MessageManager::Message::Message()
 
 inline MessageManager::Message::Message(int32_t _type)
     : type(_type)
-    , timeStamp(0)
+    , uid(0)
     , from(0)
     , to(0)
 {
 }
     
 template<class T>
-inline MessageManager::Message::Message(int32_t _type, T _param, uint64_t _timeStamp
+inline MessageManager::Message::Message(int32_t _type, T _param, uint64_t _uid
                                         , void* _from, void* _to)
     : type(_type)
-    , timeStamp(_timeStamp)
+    , uid(_uid)
     , from(_from)
     , to(_to)
 {
@@ -164,7 +166,7 @@ inline int MessageManager::sendMessage(int32_t type, T param, int prio)
 
 inline void MessageManager::registerHandler(int type, handler_t handler, void* arg)
 {
-    m_map.insert(std::pair<int, Callback>(type, Callback(handler, arg)));
+    m_map.insert(std::make_pair(type, Callback(handler, arg)));
 }
 
 inline void MessageManager::unregisterHandler(int type)

@@ -1,1 +1,0 @@
-/home/vincent/code/test_code/camport3_soc/sample/build/CMakeFiles/RawFetchFrame.dir
