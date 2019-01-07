@@ -1,4 +1,4 @@
-#ifndef __ANDROID__
+///#ifndef __ANDROID__
 
 #ifndef Foundation_SimpleCLog_INCLUDED
 #define Foundation_SimpleCLog_INCLUDED
@@ -120,6 +120,7 @@ void SCL_SetLogLevel(int level);
 
 #endif // UTILS_LOG_H_
 
+/*  
 #else
 
 #include <stdio.h>
@@ -202,3 +203,4 @@ void SCL_SetLogLevel(int level);
 #define  LOGDRAW(...)  __android_log_print(ANDROID_LOG_FATAL, LOG_TAG, __VA_ARGS__)
 
 #endif
+*/

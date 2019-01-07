@@ -25,6 +25,8 @@
 #define REG_Device_Debug_Mode               (REG_Device_Special_Base + 0x0018) // RW, being debug mode
 #define REG_Device_Override_Descriptor      (REG_Device_Special_Base + 0x001c) // WO, do override config
 #define REG_Device_Packet_Delay             (REG_Device_Special_Base + 0x0020) // RW, streaming packet delay
+#define REG_Device_NTP_SERVER_IP            (REG_Device_Special_Base + 0x0024) // RW, ntp server ip
+#define REG_Device_System_Time              (REG_Device_Special_Base + 0x0028) // WO, device system time
 #define REG_Device_Descriptor               (REG_Device_Special_Base + 0x00100000) // RW,
 #define REG_Device_License                  (REG_Device_Special_Base + 0x00200000) // WO, license full check cmd
 #define REG_Device_GenICam_Descriptor       (REG_Device_Special_Base + 0x00800000) // RO, 
@@ -49,6 +51,7 @@
 #define REG_TY_STRUCT_TRIGGER_PARAM         (REG_Common_Feature_Base + 0x0208) // RW, TY_TRIGGER_PARAM
 #define REG_TY_BOOL_CMOS_SYNC               (REG_Common_Feature_Base + 0x020C)
 #define REG_TY_INT_TRIGGER_DELAY            (REG_Common_Feature_Base + 0x0210)
+#define REG_TY_BOOL_TRIGGER_OUT_IO          (REG_Common_Feature_Base + 0x0214)
 #define REG_TY_BOOL_AUTO_EXPOSURE           (REG_Common_Feature_Base + 0x0300)
 #define REG_TY_INT_EXPOSURE_TIME            (REG_Common_Feature_Base + 0x0304)
 #define REG_TY_BOOL_AUTO_GAIN               (REG_Common_Feature_Base + 0x030c)
