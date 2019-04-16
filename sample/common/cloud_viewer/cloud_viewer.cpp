@@ -358,10 +358,6 @@ namespace {
 
 
 
-    /*******************************************************************************
-     *         Name:  mousePress
-     *  Description:  Start drag'n'drop and handle zooming per mouse wheel.
-     ******************************************************************************/
     void mousePress(int button, int state, int x, int y) {
 
         if (state == GLUT_DOWN) {
@@ -700,6 +696,7 @@ namespace {
     }//anonymouse namespace
 
     int GLPointCloudViewer::GlInit(){
+        exit_flag = false;
         return _glInit();
     }
 
@@ -707,6 +704,11 @@ namespace {
         while (!exit_flag){
             glutMainLoopEvent();
         }
+        return 0;
+    }
+
+    int GLPointCloudViewer::LeaveMainLoop() {
+        exit_flag = true;
         return 0;
     }
 
@@ -779,7 +781,9 @@ namespace {
 
     int GLPointCloudViewer::Deinit(){
         glutDestroyWindow(g_window);
-        glutMainLoopEvent();
+        //glutMainLoopEvent();
+        glutLeaveMainLoop();
+        glutExit();
         return 0;
     }
 

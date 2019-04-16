@@ -12,6 +12,9 @@ rm -rf build
 mkdir build
 cd build
 
+#for code which using opencv
+#cmake -DCMAKE_TOOLCHAIN_FILE=${TOOLCHAIN_PATH}/toolchain.cmake -DOpenCV_DIR=${TOOLCHAIN_PATH}/arm-linux-gnueabihf/share/OpenCV -DOpenCV_CONFIG_PATH=${TOOLCHAIN_PATH}/arm-linux-gnueabihf/share/OpenCV ..
+
 cmake -DCMAKE_TOOLCHAIN_FILE=${TOOLCHAIN_PATH}/toolchain.cmake ..
 
 make

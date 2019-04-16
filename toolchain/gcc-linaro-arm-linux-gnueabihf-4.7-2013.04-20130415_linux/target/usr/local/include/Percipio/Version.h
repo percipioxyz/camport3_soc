@@ -37,7 +37,7 @@
 //      Ax: alpha releases
 //      Bx: beta releases
 //
-#define PERCIPIO_VERSION 0x01070500
+#define PERCIPIO_VERSION 0x01010000
 
 
 #endif // Foundation_Version_INCLUDED

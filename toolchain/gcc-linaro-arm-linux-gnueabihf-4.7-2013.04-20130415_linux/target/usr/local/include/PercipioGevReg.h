@@ -14,11 +14,12 @@
 #define REG_Component_RightColor_Base       (0x06000000)
 #define REG_Component_Laser_Base            (0x07000000)
 #define REG_Component_BrightHisto_Base      (0x08000000)
+#define REG_Component_Storage_Base          (0x09000000)
 
 // device features
 #define REG_Device_Special_Base             (REG_Component_Device_Base + 0x00400000)
 #define REG_Device_Memory_Endian            (REG_Device_Special_Base + 0x0000) // RO, 0 for little endian, 1 for Big endian
-#define REG_Device_Acuisition               (REG_Device_Special_Base + 0x0004) // RW, write 1 to start, 0 to stop
+#define REG_Device_Acquisition              (REG_Device_Special_Base + 0x0004) // RW, write 1 to start, 0 to stop
 #define REG_Device_Trigger                  (REG_Device_Special_Base + 0x000c) // WO, trigger cmd
 #define REG_Device_Descriptor_Size          (REG_Device_Special_Base + 0x0010) // RO,
 #define REG_Device_License_Random_Check     (REG_Device_Special_Base + 0x0014) // WO, license random check cmd
@@ -108,10 +109,13 @@ enum {
   REG_DEFINE_COMPONENT_FEATURE_LIST(BrightHisto)
 };
 
+// storage features
+#define REG_Storage_Custom_Block            (REG_Component_Storage_Base + 0x00100000) // RW
+#define REG_Storage_ISP_Block               (REG_Component_Storage_Base + 0x00200000) // RW
 
 // GigE
-#define XML_REG_AcquisitionStart            (REG_Device_Acuisition)
-#define XML_REG_AcquisitionStop             (REG_Device_Acuisition) 
+#define XML_REG_AcquisitionStart            (REG_Device_Acquisition)
+#define XML_REG_AcquisitionStop             (REG_Device_Acquisition) 
 
 
 
