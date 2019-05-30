@@ -136,8 +136,8 @@
 
 
 #define TY_LIB_VERSION_MAJOR       3
-#define TY_LIB_VERSION_MINOR       1 
-#define TY_LIB_VERSION_PATCH       9 
+#define TY_LIB_VERSION_MINOR       2 
+#define TY_LIB_VERSION_PATCH       0 
 
 
 //------------------------------------------------------------------------------
