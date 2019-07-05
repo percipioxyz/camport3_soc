@@ -53,6 +53,8 @@
 #define REG_TY_BOOL_CMOS_SYNC               (REG_Common_Feature_Base + 0x020C)
 #define REG_TY_INT_TRIGGER_DELAY            (REG_Common_Feature_Base + 0x0210)
 #define REG_TY_BOOL_TRIGGER_OUT_IO          (REG_Common_Feature_Base + 0x0214)
+#define REG_TY_STRUCT_TRIGGER_PARAM_EX      (REG_Common_Feature_Base + 0x0218) // RW, TY_TRIGGER_PARAM_EX
+#define REG_TY_INT_TRIGGER_DURATION         (REG_Common_Feature_Base + 0x021C)
 #define REG_TY_BOOL_AUTO_EXPOSURE           (REG_Common_Feature_Base + 0x0300)
 #define REG_TY_INT_EXPOSURE_TIME            (REG_Common_Feature_Base + 0x0304)
 #define REG_TY_BOOL_AUTO_GAIN               (REG_Common_Feature_Base + 0x030c)

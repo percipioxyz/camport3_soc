@@ -70,11 +70,11 @@ extern uint32_t getSystemTime();
 
 
 typedef enum TY_LOG_LEVEL_LIST{
-  TY_LOG_LEVEL_DEBUG    = 0,
-  TY_LOG_LEVEL_INFO     = 1,
-  TY_LOG_LEVEL_WARNING  = 2,
-  TY_LOG_LEVEL_ERROR    = 3,
-  TY_LOG_LEVEL_NEVER    = 7,
+  TY_LOG_LEVEL_DEBUG    = 2,
+  TY_LOG_LEVEL_INFO     = 3,
+  TY_LOG_LEVEL_WARNING  = 4,
+  TY_LOG_LEVEL_ERROR    = 5,
+  TY_LOG_LEVEL_NEVER    = 9,
 }TY_LOG_LEVEL_LIST;
 typedef int32_t TY_LOG_LEVEL;
 
