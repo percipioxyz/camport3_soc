@@ -16,3 +16,4 @@ toolchain:                交叉编译工具链
 sample_raw/RawFetchFrame/build/bin/产生bin文件
 
 
+注: 工具链为32位, 在64位系统上使用时, 请先确定系统已安装32兼容库
