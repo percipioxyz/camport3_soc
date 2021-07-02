@@ -15,6 +15,7 @@
 #define REG_Component_Laser_Base            (0x07000000)
 #define REG_Component_BrightHisto_Base      (0x08000000)
 #define REG_Component_Storage_Base          (0x09000000)
+#define REG_Component_Imu_Base              (0x0a000000)
 
 // device features
 #define REG_Device_Special_Base             (REG_Component_Device_Base + 0x00400000)
@@ -28,6 +29,7 @@
 #define REG_Device_Packet_Delay             (REG_Device_Special_Base + 0x0020) // RW, streaming packet delay
 #define REG_Device_NTP_SERVER_IP            (REG_Device_Special_Base + 0x0024) // RW, ntp server ip
 #define REG_Device_System_Time              (REG_Device_Special_Base + 0x0028) // WO, device system time
+#define REG_Device_Packet_Size              (REG_Device_Special_Base + 0x002c) // RW, streaming packet size
 #define REG_Device_Descriptor               (REG_Device_Special_Base + 0x00100000) // RW,
 #define REG_Device_License                  (REG_Device_Special_Base + 0x00200000) // WO, license full check cmd
 #define REG_Device_GenICam_Descriptor       (REG_Device_Special_Base + 0x00800000) // RO, 
@@ -45,9 +47,9 @@
 #define REG_TY_INT_INTRINSIC_HEIGHT         (REG_Common_Feature_Base + 0x0020)
 
 #define REG_TY_STRUCT_CAM_INTRINSIC         (REG_Common_Feature_Base + 0x0100)
-#define REG_TY_STRUCT_EXTRINSIC_TO_LEFT_IR  (REG_Common_Feature_Base + 0x0124)
+#define REG_TY_STRUCT_EXTRINSIC_TO_IR_LEFT  (REG_Common_Feature_Base + 0x0124)
 #define REG_TY_STRUCT_CAM_DISTORTION        (REG_Common_Feature_Base + 0x0164)
-#define REG_TY_ENUM_TRIGGER_ACTIVATION      (REG_Common_Feature_Base + 0x0200)
+#define REG_TY_ENUM_TRIGGER_POL             (REG_Common_Feature_Base + 0x0200)
 #define REG_TY_INT_FRAME_PER_TRIGGER        (REG_Common_Feature_Base + 0x0204)
 #define REG_TY_STRUCT_TRIGGER_PARAM         (REG_Common_Feature_Base + 0x0208) // RW, TY_TRIGGER_PARAM
 #define REG_TY_BOOL_CMOS_SYNC               (REG_Common_Feature_Base + 0x020C)
@@ -55,6 +57,13 @@
 #define REG_TY_BOOL_TRIGGER_OUT_IO          (REG_Common_Feature_Base + 0x0214)
 #define REG_TY_STRUCT_TRIGGER_PARAM_EX      (REG_Common_Feature_Base + 0x0218) // RW, TY_TRIGGER_PARAM_EX
 #define REG_TY_INT_TRIGGER_DURATION         (REG_Common_Feature_Base + 0x021C)
+#define REG_TY_ENUM_STREAM_ASYNC            (REG_Common_Feature_Base + 0x0220)
+#define REG_TY_STRUCT_AEC_ROI               (REG_Common_Feature_Base + 0x0224)
+#define REG_TY_INT_CAPTURE_TIME_US          (REG_Common_Feature_Base + 0x0228)
+#define REG_TY_ENUM_TIME_SYNC_TYPE          (REG_Common_Feature_Base + 0x022c) // RW, time sync type
+#define REG_TY_INT_TIME_SYNC_READY          (REG_Common_Feature_Base + 0x0230) // RO, time sync ready
+#define REG_TY_STRUCT_TRIGGER_TIMER_LIST    (REG_Common_Feature_Base + 0x0234) // RW, TY_TRIGGER_TIMER_LIST
+#define REG_TY_STRUCT_TRIGGER_TIMER_PERIOD  (REG_Common_Feature_Base + 0x0238) // RW, TY_TRIGGER_TIMER_PERIOD 
 #define REG_TY_BOOL_AUTO_EXPOSURE           (REG_Common_Feature_Base + 0x0300)
 #define REG_TY_INT_EXPOSURE_TIME            (REG_Common_Feature_Base + 0x0304)
 #define REG_TY_BOOL_AUTO_GAIN               (REG_Common_Feature_Base + 0x030c)
@@ -81,9 +90,9 @@
     REG_DEFINE_FEATURE_ADDR(comp, TY_INT_HEIGHT                 ), \
     REG_DEFINE_FEATURE_ADDR(comp, TY_ENUM_IMAGE_MODE            ), \
     REG_DEFINE_FEATURE_ADDR(comp, TY_STRUCT_CAM_INTRINSIC       ), \
-    REG_DEFINE_FEATURE_ADDR(comp, TY_STRUCT_EXTRINSIC_TO_LEFT_IR), \
+    REG_DEFINE_FEATURE_ADDR(comp, TY_STRUCT_EXTRINSIC_TO_IR_LEFT), \
     REG_DEFINE_FEATURE_ADDR(comp, TY_STRUCT_CAM_DISTORTION      ), \
-    REG_DEFINE_FEATURE_ADDR(comp, TY_ENUM_TRIGGER_ACTIVATION    ), \
+    REG_DEFINE_FEATURE_ADDR(comp, TY_ENUM_TRIGGER_POL           ), \
     REG_DEFINE_FEATURE_ADDR(comp, TY_INT_FRAME_PER_TRIGGER      ), \
     REG_DEFINE_FEATURE_ADDR(comp, TY_STRUCT_TRIGGER_PARAM       ), \
     REG_DEFINE_FEATURE_ADDR(comp, TY_BOOL_AUTO_EXPOSURE         ), \

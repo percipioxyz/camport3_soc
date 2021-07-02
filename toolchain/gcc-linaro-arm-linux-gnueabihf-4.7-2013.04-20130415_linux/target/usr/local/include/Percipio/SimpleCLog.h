@@ -19,6 +19,7 @@ extern "C" {
 int  SCL_SetLogFile(FILE* file);
 int  SCL_SetLogFileByName(const char* file);
 int  SCL_SetLogFileByFd(const int fd);
+void SCL_SetFileSizeLimit(unsigned int size);
 void SCL_CloseLogFile();
 
 int  SCL_SetGlobalLogPrefix(const char* format);

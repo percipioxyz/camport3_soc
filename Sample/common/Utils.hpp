@@ -37,7 +37,7 @@
 #ifdef _WIN32
 # include <windows.h>
 # include <time.h>
-  static inline uint32_t getSystemTime()
+  static inline uint64_t getSystemTime()
   {
       SYSTEMTIME wtm;
       struct tm tm;
@@ -58,7 +58,7 @@
 #else
 # include <sys/time.h>
 # include <unistd.h>
-  static inline uint32_t getSystemTime()
+  static inline uint64_t getSystemTime()
   {
       struct timeval tv;
       gettimeofday(&tv, NULL);

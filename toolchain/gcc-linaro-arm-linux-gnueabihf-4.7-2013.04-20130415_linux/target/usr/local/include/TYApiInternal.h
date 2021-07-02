@@ -27,34 +27,16 @@ typedef enum TY_FEATURE_ID_LIST_ext{
     TY_STRING_FW_BUILD    = 0xf05 | TY_FEATURE_STRING,
     TY_STRING_SENSOR_NAME = 0xf06 | TY_FEATURE_STRING,
     TY_STRING_BUILD_HASH  = 0xf07 | TY_FEATURE_STRING,
+    TY_STRING_USER        = 0xf08 | TY_FEATURE_STRING,
 
     TY_STRING_CONFIG_XML  = 0xf10 | TY_FEATURE_STRING,
+    TY_STRING_CONFIG_VER  = 0xf11 | TY_FEATURE_STRING,
 
     TY_INT_INTRINSIC_W    = 0x003 | TY_FEATURE_INT,
     TY_INT_INTRINSIC_H    = 0x004 | TY_FEATURE_INT,
 
     TY_INT_RGB_ANALOG_GAIN = 0x525 | TY_FEATURE_INT, // for compatible with old device
 }TY_FEATURE_ID_LIST_ext;
-
-
-
-//---------------------------------------------------
-// IMU
-//---------------------------------------------------
-
-typedef struct TY_IMU_DATA
-{
-    int32_t timestamp;              ///< Timestamp in milliseconds
-    int32_t x;
-    int32_t y;
-    int32_t z;
-    int32_t a;
-    int32_t b;
-    int32_t c;
-    int32_t reserved[9];            ///< Reserved
-}TY_IMU_DATA;
-
-typedef void (*TY_IMU_CALLBACK) (TY_IMU_DATA*, void* userdata);
 
 
 //---------------------------------------------------
@@ -64,10 +46,6 @@ typedef void (*TY_IMU_CALLBACK) (TY_IMU_DATA*, void* userdata);
 extern void debug_set_flag();
 extern void debug();
 extern void debug_core();
-
-/// return current time in ms
-extern uint32_t getSystemTime();
-
 
 typedef enum TY_LOG_LEVEL_LIST{
   TY_LOG_LEVEL_DEBUG    = 2,
