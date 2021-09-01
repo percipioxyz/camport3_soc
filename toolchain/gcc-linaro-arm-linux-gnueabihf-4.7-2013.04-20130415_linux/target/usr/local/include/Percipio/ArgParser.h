@@ -181,8 +181,8 @@ public:
     inline bool         getSwitch(const char* name) {return getVal<bool>(name);}
 
     // will keep the input vector, take care
-    bool parseArgs(std::vector<std::string>& args);
-    bool parseArgs(int argc, const char** argv);
+    bool parseArgs(std::vector<std::string>& args, bool omitUnknown = false);
+    bool parseArgs(int argc, const char** argv, bool omitUnknown = false);
 
     void printHelp(const char* pre = NULL, const char* suf = NULL);
     /// @param all true to dump with args not in command line

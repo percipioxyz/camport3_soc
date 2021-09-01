@@ -59,8 +59,7 @@ public:
     void    run();
     void    stop();     // stop running
     void    clear();    // clear all messages
-
-    bool    isRunning();
+   
     void    setSleepTime(int ms);  // in milliseconds
 
     int     sendMessage(const Message &msg, int prio = MSGPRIO_LOW);
@@ -78,7 +77,6 @@ private:
     void    handleMsg(Message*);
 
     bool                    m_toExit;
-    bool                    m_running;
     int                     m_sleepTime;
     Mutex                   m_lockLow;
     Mutex                   m_lockMid;
@@ -142,12 +140,6 @@ inline T MessageManager::Message::fetch()
 inline void MessageManager::stop()
 {
     m_toExit = true;
-}
-
-
-inline bool MessageManager::isRunning()
-{
-    return m_running;
 }
 
 

@@ -30,6 +30,8 @@
 #define REG_Device_NTP_SERVER_IP            (REG_Device_Special_Base + 0x0024) // RW, ntp server ip
 #define REG_Device_System_Time              (REG_Device_Special_Base + 0x0028) // WO, device system time
 #define REG_Device_Packet_Size              (REG_Device_Special_Base + 0x002c) // RW, streaming packet size
+#define REG_Device_Error_Code               (REG_Device_Special_Base + 0x0030) // RO, error code
+#define REG_Device_Reboot_On_Close          (REG_Device_Special_Base + 0x0034) // WO, reboot on close
 #define REG_Device_Descriptor               (REG_Device_Special_Base + 0x00100000) // RW,
 #define REG_Device_License                  (REG_Device_Special_Base + 0x00200000) // WO, license full check cmd
 #define REG_Device_GenICam_Descriptor       (REG_Device_Special_Base + 0x00800000) // RO, 
@@ -64,6 +66,8 @@
 #define REG_TY_INT_TIME_SYNC_READY          (REG_Common_Feature_Base + 0x0230) // RO, time sync ready
 #define REG_TY_STRUCT_TRIGGER_TIMER_LIST    (REG_Common_Feature_Base + 0x0234) // RW, TY_TRIGGER_TIMER_LIST
 #define REG_TY_STRUCT_TRIGGER_TIMER_PERIOD  (REG_Common_Feature_Base + 0x0238) // RW, TY_TRIGGER_TIMER_PERIOD 
+#define REG_TY_BOOL_FLASHLIGHT              (REG_Common_Feature_Base + 0x023c) // RW, TY_BOOL_FLASHLIGHT
+#define REG_TY_INT_FLASHLIGHT_INTENSITY     (REG_Common_Feature_Base + 0x0240) // RW, TY_INT_FLASHLIGHT_INTENSITY
 #define REG_TY_BOOL_AUTO_EXPOSURE           (REG_Common_Feature_Base + 0x0300)
 #define REG_TY_INT_EXPOSURE_TIME            (REG_Common_Feature_Base + 0x0304)
 #define REG_TY_BOOL_AUTO_GAIN               (REG_Common_Feature_Base + 0x030c)
