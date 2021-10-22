@@ -78,8 +78,6 @@
 #define REG_TY_INT_B_GAIN                   (REG_Common_Feature_Base + 0x0320)
 #define REG_TY_BOOL_UNDISTORTION            (REG_Common_Feature_Base + 0x0324)
 #define REG_TY_INT_ANALOG_GAIN              (REG_Common_Feature_Base + 0x0328)
-#define REG_TY_BOOL_HDR                     (REG_Common_Feature_Base + 0x032C)
-#define REG_TY_BYTEARRAY_HDR_PARAMETER      (REG_Common_Feature_Base + 0x0330)
 #define REG_TY_INT_LASER_POWER              (REG_Common_Feature_Base + 0x0500)
 #define REG_TY_BOOL_LASER_AUTO_CTRL         (REG_Common_Feature_Base + 0x0504)
 
@@ -111,8 +109,6 @@
     REG_DEFINE_FEATURE_ADDR(comp, TY_INT_B_GAIN                 ), \
     REG_DEFINE_FEATURE_ADDR(comp, TY_BOOL_UNDISTORTION          ), \
     REG_DEFINE_FEATURE_ADDR(comp, TY_INT_ANALOG_GAIN            ), \
-    REG_DEFINE_FEATURE_ADDR(comp, TY_BOOL_HDR                   ), \
-    REG_DEFINE_FEATURE_ADDR(comp, TY_BYTEARRAY_HDR_PARAMETER    ), \
     REG_DEFINE_FEATURE_ADDR(comp, TY_BOOL_LASER_AUTO_CTRL       ), \
     REG_DEFINE_FEATURE_ADDR(comp, TY_INT_LASER_POWER            ), \
 
