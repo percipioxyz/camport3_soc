@@ -1,0 +1,7 @@
+/workspace/Sample/build/CMakeFiles/install/strip.dir
+/workspace/Sample/build/CMakeFiles/edit_cache.dir
+/workspace/Sample/build/CMakeFiles/RawFetchFrame.dir
+/workspace/Sample/build/CMakeFiles/list_install_components.dir
+/workspace/Sample/build/CMakeFiles/install/local.dir
+/workspace/Sample/build/CMakeFiles/rebuild_cache.dir
+/workspace/Sample/build/CMakeFiles/install.dir

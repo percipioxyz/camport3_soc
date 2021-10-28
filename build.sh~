@@ -6,6 +6,8 @@ TOOLCHAIN_PATH=${CURRENT_PATH}/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013
 echo "========= Current path is"   ${CURRENT_PATH}
 echo "========= Toolchain path is" ${TOOLCHAIN_PATH}
 
+export LD_LIBRARY_PATH=${TOOLCHAIN_PATH}/arm-linux-gnueabihf/lib
+echo $LD_LIBRARY_PATH
 if [ ! -d "$TOOLCHAIN_PATH" ]; then
     echo " ERROR: Toolchain not exist. please download and unzip toolchain pack in correct path"
     exit 1

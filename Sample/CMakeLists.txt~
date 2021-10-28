@@ -13,6 +13,7 @@ if (OPENCV_USED)
     endif()
     include_directories(${CMAKE_SOURCE_DIR}/../ThirdPartyLib/Opencv-3.0/include)
 endif()
+
 foreach(sample ${ALL_SAMPLES})
     file(GLOB sources ${sample}/*.cpp)
     add_executable(${sample} ${sources})
