@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/Sample
+CMAKE_SOURCE_DIR = /workspace/resources/camport3_soc/Sample
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/Sample/build
+CMAKE_BINARY_DIR = /workspace/resources/camport3_soc/Sample/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RawFetchFrame.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/RawFetchFrame.dir/flags.make
 
 CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o: CMakeFiles/RawFetchFrame.dir/flags.make
 CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o: ../RawFetchFrame/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/Sample/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o"
-	/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o -c /workspace/Sample/RawFetchFrame/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/resources/camport3_soc/Sample/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o"
+	/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o -c /workspace/resources/camport3_soc/Sample/RawFetchFrame/main.cpp
 
 CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.i"
-	/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/Sample/RawFetchFrame/main.cpp > CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.i
+	/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/resources/camport3_soc/Sample/RawFetchFrame/main.cpp > CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.i
 
 CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.s"
-	/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/Sample/RawFetchFrame/main.cpp -o CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.s
+	/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/resources/camport3_soc/Sample/RawFetchFrame/main.cpp -o CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.s
 
 CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o.requires:
 
@@ -91,26 +91,26 @@ RawFetchFrame_EXTERNAL_OBJECTS =
 bin/RawFetchFrame: CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o
 bin/RawFetchFrame: CMakeFiles/RawFetchFrame.dir/build.make
 bin/RawFetchFrame: ../../Lib/libtycam.so
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
-bin/RawFetchFrame: /workspace/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
+bin/RawFetchFrame: /workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib/libopencv_world.so.3.4.0
 bin/RawFetchFrame: CMakeFiles/RawFetchFrame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/Sample/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/RawFetchFrame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/resources/camport3_soc/Sample/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/RawFetchFrame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RawFetchFrame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/RawFetchFrame.dir/clean:
 .PHONY : CMakeFiles/RawFetchFrame.dir/clean
 
 CMakeFiles/RawFetchFrame.dir/depend:
-	cd /workspace/Sample/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/Sample /workspace/Sample /workspace/Sample/build /workspace/Sample/build /workspace/Sample/build/CMakeFiles/RawFetchFrame.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/resources/camport3_soc/Sample/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/resources/camport3_soc/Sample /workspace/resources/camport3_soc/Sample /workspace/resources/camport3_soc/Sample/build /workspace/resources/camport3_soc/Sample/build /workspace/resources/camport3_soc/Sample/build/CMakeFiles/RawFetchFrame.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RawFetchFrame.dir/depend
 

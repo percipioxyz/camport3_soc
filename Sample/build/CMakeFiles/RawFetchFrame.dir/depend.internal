@@ -3,5 +3,5 @@
 
 CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o
  ../../Include/TYApi.h
- /workspace/Sample/RawFetchFrame/main.cpp
- /workspace/Sample/common/Utils.hpp
+ /workspace/resources/camport3_soc/Sample/RawFetchFrame/main.cpp
+ /workspace/resources/camport3_soc/Sample/common/Utils.hpp

@@ -20,11 +20,11 @@ WinSock2.h
 Windows.h
 -
 
-/workspace/Sample/RawFetchFrame/main.cpp
+/workspace/resources/camport3_soc/Sample/RawFetchFrame/main.cpp
 ../common/Utils.hpp
-/workspace/Sample/common/Utils.hpp
+/workspace/resources/camport3_soc/Sample/common/Utils.hpp
 
-/workspace/Sample/common/Utils.hpp
+/workspace/resources/camport3_soc/Sample/common/Utils.hpp
 stdio.h
 -
 stdlib.h
@@ -36,7 +36,7 @@ string
 vector
 -
 TYApi.h
-/workspace/Sample/common/TYApi.h
+/workspace/resources/camport3_soc/Sample/common/TYApi.h
 windows.h
 -
 time.h

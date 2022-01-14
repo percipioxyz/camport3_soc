@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/workspace/Sample/RawFetchFrame/main.cpp" "/workspace/Sample/build/CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o"
+  "/workspace/resources/camport3_soc/Sample/RawFetchFrame/main.cpp" "/workspace/resources/camport3_soc/Sample/build/CMakeFiles/RawFetchFrame.dir/RawFetchFrame/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,8 +12,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../Include"
   "../../ThirdPartyLib/Opencv-3.0/include"
-  "/workspace/ThirdPartyLib/Opencv-3.4/include"
-  "/workspace/ThirdPartyLib/Opencv-3.4/include/opencv"
+  "/workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/include"
+  "/workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/include/opencv"
   )
 
 # Targets to which this target links.

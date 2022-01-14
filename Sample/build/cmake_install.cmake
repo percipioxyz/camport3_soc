@@ -1,8 +1,8 @@
-# Install script for directory: /workspace/Sample
+# Install script for directory: /workspace/resources/camport3_soc/Sample
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/target/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/target/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,15 +44,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RawFetchFrame"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/workspace/Sample/build/bin/RawFetchFrame")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/workspace/resources/camport3_soc/Sample/build/bin/RawFetchFrame")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RawFetchFrame" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RawFetchFrame")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RawFetchFrame"
-         OLD_RPATH "/workspace/Sample/../Lib:/workspace/ThirdPartyLib/Opencv-3.4/lib:"
+         OLD_RPATH "/workspace/resources/camport3_soc/Sample/../Lib:/workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RawFetchFrame")
+      execute_process(COMMAND "/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RawFetchFrame")
     endif()
   endif()
 endif()
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/workspace/Sample/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/workspace/resources/camport3_soc/Sample/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

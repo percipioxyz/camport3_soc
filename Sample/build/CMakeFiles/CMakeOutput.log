@@ -1,7 +1,7 @@
 The target system is: Linux - 1 - 
-The host system is: Linux - 5.11.0-37-generic - x86_64
+The host system is: Linux - 5.11.0-43-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc 
+Compiler: /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc 
 Build flags: 
 Id flags:  
 
@@ -11,10 +11,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/workspace/Sample/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/workspace/resources/camport3_soc/Sample/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++ 
+Compiler: /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++ 
 Build flags: 
 Id flags:  
 
@@ -24,72 +24,72 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/workspace/Sample/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/workspace/resources/camport3_soc/Sample/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /workspace/Sample/build/CMakeFiles/CMakeTmp
+Change Dir: /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_51939/fast"
-/usr/bin/make -f CMakeFiles/cmTC_51939.dir/build.make CMakeFiles/cmTC_51939.dir/build
-make[1]: Entering directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_51939.dir/testCCompiler.c.o
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_51939.dir/testCCompiler.c.o   -c /workspace/Sample/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_51939
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51939.dir/link.txt --verbose=1
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_51939.dir/testCCompiler.c.o  -o cmTC_51939 
-make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_27c39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27c39.dir/build.make CMakeFiles/cmTC_27c39.dir/build
+make[1]: Entering directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27c39.dir/testCCompiler.c.o
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_27c39.dir/testCCompiler.c.o   -c /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_27c39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27c39.dir/link.txt --verbose=1
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_27c39.dir/testCCompiler.c.o  -o cmTC_27c39 
+make[1]: Leaving directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /workspace/Sample/build/CMakeFiles/CMakeTmp
+Change Dir: /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6519e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6519e.dir/build.make CMakeFiles/cmTC_6519e.dir/build
-make[1]: Entering directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6519e.dir/CMakeCCompilerABI.c.o
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_6519e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_6519e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6519e.dir/link.txt --verbose=1
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_6519e.dir/CMakeCCompilerABI.c.o  -o cmTC_6519e 
+Run Build Command:"/usr/bin/make" "cmTC_6b471/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b471.dir/build.make CMakeFiles/cmTC_6b471.dir/build
+make[1]: Entering directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b471.dir/CMakeCCompilerABI.c.o
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_6b471.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6b471
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b471.dir/link.txt --verbose=1
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_6b471.dir/CMakeCCompilerABI.c.o  -o cmTC_6b471 
 Using built-in specs.
-COLLECT_GCC=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc
-COLLECT_LTO_WRAPPER=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/lto-wrapper
+COLLECT_GCC=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/lto-wrapper
 Target: arm-linux-gnueabihf
 Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.7-2013.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install/arm-linux-gnueabihf/libc --enable-languages=c,c++,fortran --enable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.7-2013.04-20130415 - Linaro GCC 2013.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-ppl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-host-libstdcxx='-L/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb
 Thread model: posix
 gcc version 4.7.3 20130328 (prerelease) (crosstool-NG linaro-1.13.1-4.7-2013.04-20130415 - Linaro GCC 2013.04) 
-COMPILER_PATH=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6519e' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
- /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2 --sysroot=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_6519e /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3 -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_6519e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
-make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
+COMPILER_PATH=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6b471' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2 --sysroot=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_6b471 /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3 -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_6b471.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /workspace/Sample/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6519e/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6519e.dir/build.make CMakeFiles/cmTC_6519e.dir/build]
-  ignore line: [make[1]: Entering directory '/workspace/Sample/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_6519e.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_6519e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_6519e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6519e.dir/link.txt --verbose=1]
-  ignore line: [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_6519e.dir/CMakeCCompilerABI.c.o  -o cmTC_6519e ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6b471/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6b471.dir/build.make CMakeFiles/cmTC_6b471.dir/build]
+  ignore line: [make[1]: Entering directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6b471.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_6b471.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_6b471]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b471.dir/link.txt --verbose=1]
+  ignore line: [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_6b471.dir/CMakeCCompilerABI.c.o  -o cmTC_6b471 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc]
-  ignore line: [COLLECT_LTO_WRAPPER=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/lto-wrapper]
+  ignore line: [COLLECT_GCC=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/lto-wrapper]
   ignore line: [Target: arm-linux-gnueabihf]
   ignore line: [Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.7-2013.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install/arm-linux-gnueabihf/libc --enable-languages=c,c++,fortran --enable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.7-2013.04-20130415 - Linaro GCC 2013.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-ppl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-host-libstdcxx='-L/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.7.3 20130328 (prerelease) (crosstool-NG linaro-1.13.1-4.7-2013.04-20130415 - Linaro GCC 2013.04) ]
-  ignore line: [COMPILER_PATH=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6519e' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2 --sysroot=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_6519e /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3 -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_6519e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o]
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2] ==> ignore
-    arg [--sysroot=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc] ==> ignore
+  ignore line: [COMPILER_PATH=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6b471' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2 --sysroot=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_6b471 /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3 -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_6b471.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o]
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2] ==> ignore
+    arg [--sysroot=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-export-dynamic] ==> ignore
@@ -99,19 +99,19 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6519e] ==> ignore
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o] ==> ignore
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o] ==> ignore
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o] ==> ignore
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_6519e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [cmTC_6b471] ==> ignore
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o] ==> ignore
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTC_6b471.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -121,35 +121,35 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o] ==> ignore
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o] ==> ignore
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf/4.7.3]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o] ==> ignore
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o] ==> ignore
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf/4.7.3]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf/4.7.3;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+  implicit dirs: [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf/4.7.3;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /workspace/Sample/build/CMakeFiles/CMakeTmp
+Change Dir: /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6f1d8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6f1d8.dir/build.make CMakeFiles/cmTC_6f1d8.dir/build
-make[1]: Entering directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6f1d8.dir/feature_tests.c.o
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_6f1d8.dir/feature_tests.c.o   -c /workspace/Sample/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6f1d8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f1d8.dir/link.txt --verbose=1
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_6f1d8.dir/feature_tests.c.o  -o cmTC_6f1d8 
-make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_81687/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81687.dir/build.make CMakeFiles/cmTC_81687.dir/build
+make[1]: Entering directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81687.dir/feature_tests.c.o
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_81687.dir/feature_tests.c.o   -c /workspace/resources/camport3_soc/Sample/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_81687
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81687.dir/link.txt --verbose=1
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_81687.dir/feature_tests.c.o  -o cmTC_81687 
+make[1]: Leaving directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -159,17 +159,17 @@ make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /workspace/Sample/build/CMakeFiles/CMakeTmp
+Change Dir: /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1b083/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1b083.dir/build.make CMakeFiles/cmTC_1b083.dir/build
-make[1]: Entering directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1b083.dir/feature_tests.c.o
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_1b083.dir/feature_tests.c.o   -c /workspace/Sample/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1b083
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b083.dir/link.txt --verbose=1
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_1b083.dir/feature_tests.c.o  -o cmTC_1b083 
-make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_19eb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19eb7.dir/build.make CMakeFiles/cmTC_19eb7.dir/build
+make[1]: Entering directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19eb7.dir/feature_tests.c.o
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_19eb7.dir/feature_tests.c.o   -c /workspace/resources/camport3_soc/Sample/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_19eb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19eb7.dir/link.txt --verbose=1
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_19eb7.dir/feature_tests.c.o  -o cmTC_19eb7 
+make[1]: Leaving directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -179,17 +179,17 @@ make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /workspace/Sample/build/CMakeFiles/CMakeTmp
+Change Dir: /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3b918/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3b918.dir/build.make CMakeFiles/cmTC_3b918.dir/build
-make[1]: Entering directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3b918.dir/feature_tests.c.o
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_3b918.dir/feature_tests.c.o   -c /workspace/Sample/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3b918
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b918.dir/link.txt --verbose=1
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_3b918.dir/feature_tests.c.o  -o cmTC_3b918 
-make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_74b80/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74b80.dir/build.make CMakeFiles/cmTC_74b80.dir/build
+make[1]: Entering directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74b80.dir/feature_tests.c.o
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_74b80.dir/feature_tests.c.o   -c /workspace/resources/camport3_soc/Sample/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_74b80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74b80.dir/link.txt --verbose=1
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_74b80.dir/feature_tests.c.o  -o cmTC_74b80 
+make[1]: Leaving directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,69 +197,69 @@ make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /workspace/Sample/build/CMakeFiles/CMakeTmp
+Change Dir: /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_86c52/fast"
-/usr/bin/make -f CMakeFiles/cmTC_86c52.dir/build.make CMakeFiles/cmTC_86c52.dir/build
-make[1]: Entering directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_86c52.dir/testCXXCompiler.cxx.o
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_86c52.dir/testCXXCompiler.cxx.o -c /workspace/Sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_86c52
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86c52.dir/link.txt --verbose=1
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_86c52.dir/testCXXCompiler.cxx.o  -o cmTC_86c52 
-make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bb4be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb4be.dir/build.make CMakeFiles/cmTC_bb4be.dir/build
+make[1]: Entering directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bb4be.dir/testCXXCompiler.cxx.o
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_bb4be.dir/testCXXCompiler.cxx.o -c /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_bb4be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb4be.dir/link.txt --verbose=1
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_bb4be.dir/testCXXCompiler.cxx.o  -o cmTC_bb4be 
+make[1]: Leaving directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /workspace/Sample/build/CMakeFiles/CMakeTmp
+Change Dir: /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a8191/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a8191.dir/build.make CMakeFiles/cmTC_a8191.dir/build
-make[1]: Entering directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a8191.dir/CMakeCXXCompilerABI.cpp.o
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_a8191.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a8191
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8191.dir/link.txt --verbose=1
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++      -v -rdynamic CMakeFiles/cmTC_a8191.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a8191 
+Run Build Command:"/usr/bin/make" "cmTC_6415f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6415f.dir/build.make CMakeFiles/cmTC_6415f.dir/build
+make[1]: Entering directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6415f.dir/CMakeCXXCompilerABI.cpp.o
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_6415f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_6415f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6415f.dir/link.txt --verbose=1
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++      -v -rdynamic CMakeFiles/cmTC_6415f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6415f 
 Using built-in specs.
-COLLECT_GCC=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++
-COLLECT_LTO_WRAPPER=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/lto-wrapper
+COLLECT_GCC=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/lto-wrapper
 Target: arm-linux-gnueabihf
 Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.7-2013.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install/arm-linux-gnueabihf/libc --enable-languages=c,c++,fortran --enable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.7-2013.04-20130415 - Linaro GCC 2013.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-ppl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-host-libstdcxx='-L/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb
 Thread model: posix
 gcc version 4.7.3 20130328 (prerelease) (crosstool-NG linaro-1.13.1-4.7-2013.04-20130415 - Linaro GCC 2013.04) 
-COMPILER_PATH=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a8191' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
- /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2 --sysroot=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_a8191 /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3 -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_a8191.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
-make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
+COMPILER_PATH=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6415f' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2 --sysroot=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_6415f /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3 -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_6415f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /workspace/Sample/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a8191/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a8191.dir/build.make CMakeFiles/cmTC_a8191.dir/build]
-  ignore line: [make[1]: Entering directory '/workspace/Sample/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a8191.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_a8191.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a8191]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8191.dir/link.txt --verbose=1]
-  ignore line: [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++      -v -rdynamic CMakeFiles/cmTC_a8191.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a8191 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6415f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6415f.dir/build.make CMakeFiles/cmTC_6415f.dir/build]
+  ignore line: [make[1]: Entering directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_6415f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_6415f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_6415f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6415f.dir/link.txt --verbose=1]
+  ignore line: [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++      -v -rdynamic CMakeFiles/cmTC_6415f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6415f ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++]
-  ignore line: [COLLECT_LTO_WRAPPER=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/lto-wrapper]
+  ignore line: [COLLECT_GCC=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/lto-wrapper]
   ignore line: [Target: arm-linux-gnueabihf]
   ignore line: [Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/src/gcc-linaro-4.7-2013.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install/arm-linux-gnueabihf/libc --enable-languages=c,c++,fortran --enable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.7-2013.04-20130415 - Linaro GCC 2013.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-ppl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static --with-host-libstdcxx='-L/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/.build/arm-linux-gnueabihf/build/static/lib -lpwl' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-linux/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.7.3 20130328 (prerelease) (crosstool-NG linaro-1.13.1-4.7-2013.04-20130415 - Linaro GCC 2013.04) ]
-  ignore line: [COMPILER_PATH=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/:/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a8191' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2 --sysroot=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_a8191 /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3 -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib -L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_a8191.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o /workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o]
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2] ==> ignore
-    arg [--sysroot=/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc] ==> ignore
+  ignore line: [COMPILER_PATH=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/:/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6415f' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2 --sysroot=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_6415f /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3 -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib -L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_6415f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o /workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o]
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../libexec/gcc/arm-linux-gnueabihf/4.7.3/collect2] ==> ignore
+    arg [--sysroot=/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-export-dynamic] ==> ignore
@@ -269,19 +269,19 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a8191] ==> ignore
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o] ==> ignore
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o] ==> ignore
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o] ==> ignore
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib]
-    arg [-L/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_a8191.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [cmTC_6415f] ==> ignore
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtbegin.o] ==> ignore
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [-L/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTC_6415f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -289,35 +289,35 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o] ==> ignore
-    arg [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o] ==> ignore
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf/4.7.3]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib]
-  collapse library dir [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/crtend.o] ==> ignore
+    arg [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o] ==> ignore
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf/4.7.3]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/lib] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib]
+  collapse library dir [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf/4.7.3;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+  implicit dirs: [/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf/4.7.3;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /workspace/Sample/build/CMakeFiles/CMakeTmp
+Change Dir: /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0bc32/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0bc32.dir/build.make CMakeFiles/cmTC_0bc32.dir/build
-make[1]: Entering directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0bc32.dir/feature_tests.cxx.o
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++    -std=c++11 -o CMakeFiles/cmTC_0bc32.dir/feature_tests.cxx.o -c /workspace/Sample/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0bc32
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bc32.dir/link.txt --verbose=1
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_0bc32.dir/feature_tests.cxx.o  -o cmTC_0bc32 
-make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a8a11/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8a11.dir/build.make CMakeFiles/cmTC_a8a11.dir/build
+make[1]: Entering directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a8a11.dir/feature_tests.cxx.o
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++    -std=c++11 -o CMakeFiles/cmTC_a8a11.dir/feature_tests.cxx.o -c /workspace/resources/camport3_soc/Sample/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a8a11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8a11.dir/link.txt --verbose=1
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_a8a11.dir/feature_tests.cxx.o  -o cmTC_a8a11 
+make[1]: Leaving directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -380,17 +380,17 @@ make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /workspace/Sample/build/CMakeFiles/CMakeTmp
+Change Dir: /workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4dcb5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4dcb5.dir/build.make CMakeFiles/cmTC_4dcb5.dir/build
-make[1]: Entering directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4dcb5.dir/feature_tests.cxx.o
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++    -std=c++98 -o CMakeFiles/cmTC_4dcb5.dir/feature_tests.cxx.o -c /workspace/Sample/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4dcb5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dcb5.dir/link.txt --verbose=1
-/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_4dcb5.dir/feature_tests.cxx.o  -o cmTC_4dcb5 
-make[1]: Leaving directory '/workspace/Sample/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9c043/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c043.dir/build.make CMakeFiles/cmTC_9c043.dir/build
+make[1]: Entering directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c043.dir/feature_tests.cxx.o
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++    -std=c++98 -o CMakeFiles/cmTC_9c043.dir/feature_tests.cxx.o -c /workspace/resources/camport3_soc/Sample/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9c043
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c043.dir/link.txt --verbose=1
+/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_9c043.dir/feature_tests.cxx.o  -o cmTC_9c043 
+make[1]: Leaving directory '/workspace/resources/camport3_soc/Sample/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

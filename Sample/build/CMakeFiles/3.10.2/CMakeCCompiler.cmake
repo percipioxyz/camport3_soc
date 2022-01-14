@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc")
+set(CMAKE_C_COMPILER "/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "4.7.3")
@@ -16,11 +16,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-ar")
-set(CMAKE_C_COMPILER_AR "/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc-ar")
-set(CMAKE_RANLIB "/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc-ranlib")
-set(CMAKE_LINKER "/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-ld")
+set(CMAKE_AR "/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-ar")
+set(CMAKE_C_COMPILER_AR "/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc-ar")
+set(CMAKE_RANLIB "/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-gcc-ranlib")
+set(CMAKE_LINKER "/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-ld")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
@@ -69,5 +69,5 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf/4.7.3;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib;/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf/4.7.3;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/lib/gcc/arm-linux-gnueabihf;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib;/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

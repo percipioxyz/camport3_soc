@@ -29,11 +29,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
-  "/workspace/ThirdPartyLib/Opencv-3.4/share/OpenCV/OpenCVConfig-version.cmake"
-  "/workspace/ThirdPartyLib/Opencv-3.4/share/OpenCV/OpenCVConfig.cmake"
-  "/workspace/ThirdPartyLib/Opencv-3.4/share/OpenCV/OpenCVModules-release.cmake"
-  "/workspace/ThirdPartyLib/Opencv-3.4/share/OpenCV/OpenCVModules.cmake"
-  "/workspace/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/toolchain.cmake"
+  "/workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/share/OpenCV/OpenCVConfig-version.cmake"
+  "/workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/share/OpenCV/OpenCVConfig.cmake"
+  "/workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/share/OpenCV/OpenCVModules-release.cmake"
+  "/workspace/resources/camport3_soc/ThirdPartyLib/Opencv-3.4/share/OpenCV/OpenCVModules.cmake"
+  "/workspace/resources/camport3_soc/toolchain/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/toolchain.cmake"
   )
 
 # The corresponding makefile is:
